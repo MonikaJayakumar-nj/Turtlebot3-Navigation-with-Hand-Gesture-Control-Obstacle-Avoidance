@@ -3,3 +3,9 @@ This project integrates LIDAR-based obstacle avoidance with hand gesture navigat
 The system processes LIDAR data to detect obstacles and determine safe movement directions. 
 Simultaneously, it employs MediaPipe to recognize hand gestures via a PC camera, translating them into navigation commands. 
 This dual approach enables the TurtleBot3 to navigate autonomously while responding to user gestures.
+
+# The code for a gesture-controlled TurtleBot application includes:
+
+- HandGestureNode.py (Gesture Recognition): Detects gestures using MediaPipe and publishes commands to a ROS topic.
+- TurtleBotControlNode.py (TurtleBot Command Node): Subscribes to the gesture commands and executes appropriate motion commands for the TurtleBot.
+- main.py (Hand Gesture Detection): Tests the gesture detection logic in isolation.
