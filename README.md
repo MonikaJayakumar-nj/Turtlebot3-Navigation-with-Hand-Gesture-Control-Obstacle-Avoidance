@@ -9,3 +9,6 @@ This dual approach enables the TurtleBot3 to navigate autonomously while respond
 - HandGestureNode.py (Gesture Recognition): Detects gestures using MediaPipe and publishes commands to a ROS topic.
 - TurtleBotControlNode.py (TurtleBot Command Node): Subscribes to the gesture commands and executes appropriate motion commands for the TurtleBot.
 - main.py (Hand Gesture Detection): Tests the gesture detection logic in isolation.
+
+
+![Hand Gestures & corresponding Commands](https://github.com/user-attachments/assets/5d7c8518-206d-4326-92a9-2bbc5115e77f)
